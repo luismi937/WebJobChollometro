@@ -13,8 +13,5 @@ var provider = new ServiceCollection()
     .BuildServiceProvider();
 //recuperamos el repository de la inyeccion
 RepositoryChollometro repository = provider.GetService<RepositoryChollometro>();
-Console.WriteLine("pulse ENTER para comenzar...");
-Console.ReadLine();
+
 await repository.PopulateChollosAzureAsync();
-Console.WriteLine("Proceso terminado, pulse ENTER para salir...");
-Console.ReadLine();
