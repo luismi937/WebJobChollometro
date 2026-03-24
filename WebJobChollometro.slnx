@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="MvcNetCoreChollometro/MvcNetCoreChollometro.csproj" />
+  <Project Path="WebJobChollometro/WebJobChollometro.csproj" />
+</Solution>
